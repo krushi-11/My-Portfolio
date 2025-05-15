@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- --------- UNICONS ---------- -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+    <!-- --------- CSS ---------- -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- --------- FAVICON ---------- -->
+    <link rel="shortcut icon" href="assets/images/Letter K.png" type="image/x-icon">
+
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+    <title>Portfolio | Krushikesh</title>
+    <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script>
+        (function(){
+            emailjs.init("SNxj-12UowQJHIQ9E"); // Replace with your EmailJS Public Key
+        })();
+    </script>
+
+</head>
+<body>
+    <div id="particles-js"></div>  
+
+    <div class="container">
+        <!-- --------------- HEADER --------------- -->
+        <nav id="header">
+            <div class="nav-logo">
+                <p class="nav-name">K</p>
+                <span>.</span>
+            </div>
+            <div class="nav-menu" id="myNavMenu">
+                <ul class="nav_menu_list">
+                    <li class="nav_list">
+                        <a href="#home" class="nav-link active-link">Home</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#about" class="nav-link">About</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#projects" class="nav-link">Projects</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#contact" class="nav-link">Contact</a>
+                        <div class="circle"></div>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav-button">
+                <a href="assets/KRUSHIKESH THOTANGE resume.pdf" download class="btn">Download CV <i class="uil uil-file-alt"></i></a>
+            </div>
+            <div class="nav-menu-btn">
+                <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+            </div>
+        </nav>
+
+
+        <!-- -------------- MAIN ---------------- -->
+        <main class="wrapper">
+            <!-- -------------- FEATURED BOX ---------------- -->
+            <section class="featured-box" id="home">
+                <div class="featured-text">
+                    <div class="featured-text-card">
+                        <span>Krushikesh Thotange</span>
+                    </div>
+                    <div class="featured-name">
+                        <p>I'm <span class="typedText"></span></p>
+                    </div>
+                    <div class="featured-text-info">
+                        <p>
+                            Software Developer dedicated to building efficient, scalable, and user-focused solutions. Passionate about transforming ideas into impactful digital experiences.
+                        </p>
+                    </div>
+                    <div class="featured-text-btn">
+                        <button class="btn blue-btn" onclick="scrollToContact()">Hire Me</button>
+                    </div>
+                    <div class="social_icons">
+                        <a href="https://linkedin.com/in/krushikeshthotange" target="_blank" class="icon"><i class="uil uil-linkedin-alt"></i></a>
+                        <a href="https://github.com/krushi-11" target="_blank" class="icon"><i class="uil uil-github-alt"></i></a>
+                      </div>                      
+                </div>
+                <div class="featured-image">
+                    <div class="image">
+                        <img src="assets/images/Krushikesh.jpg" alt="avatar">
+                    </div>
+                </div>
+                <div class="scroll-icon-box">
+                    <a href="#about" class="scroll-btn">
+                        <i class="uil uil-mouse-alt"></i>
+                        <p>Scroll Down</p>
+                    </a>
+                </div>
+
+            </section>
+            <!-- -------------- ABOUT BOX ---------------- -->
+            <section class="section" id="about">
+                <div class="top-header">
+                    <h1>About Me</h1>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="about-info">
+                            <h3>My introduction</h3>
+                            <p>
+                                I am a highly motivated and innovative Software Developer with a strong passion for designing and implementing efficient, scalable, and user-focused solutions. With expertise in programming languages like Python, React, Angular, I thrive on solving complex challenges and delivering impactful digital experiences. I am committed to continuous learning and collaboration, driving success through creativity, precision, and a dedication to excellence.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="skills-box">
+                            <div class="skills-header">
+                                <h3>Programming Languages</h3>
+                            </div>
+                            <div class="skills-list">
+                                <span>C</span>
+                                <span>C++</span>
+                                <span>C#</span>
+                                <span>Java</span>
+                                <span>Python</span>
+                                <span>Scala</span>
+                                <span>TypeScript</span>
+                                <span>Dart</span>
+                            </div>
+                        </div>
+                    
+                        <div class="skills-box">
+                            <div class="skills-header">
+                                <h3>Frontend</h3>
+                            </div>
+                            <div class="skills-list">
+                                <span>HTML5</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                                <span>React</span>
+                                <span>Angular</span>
+                            </div>
+                        </div>
+                    
+                        <div class="skills-box">
+                            <div class="skills-header">
+                                <h3>Backend</h3>
+                            </div>
+                            <div class="skills-list">
+                                <span>ASP.NET Core</span>
+                                <span>Entity Framework Core</span>
+                                <span>Node.js</span>
+                                <span>Flask</span>
+                                <span>Django</span>
+                            </div>
+                        </div>
+                    
+                        <div class="skills-box">
+                            <div class="skills-header">
+                                <h3>Mobile & Web</h3>
+                            </div>
+                            <div class="skills-list">
+                                <span>Flutter</span>
+                                <span>Android Studio</span>
+                                <span>Web & Mobile App Dev</span>
+                            </div>
+                        </div>
+                    
+                        <div class="skills-box">
+                            <div class="skills-header">
+                                <h3>Cloud & DevOps</h3>
+                            </div>
+                            <div class="skills-list">
+                                <span>AWS</span>
+                                <span>Firebase</span>
+                                <span>Docker</span>
+                                <span>Kubernetes</span>
+                                <span>CI/CD</span>
+                                <span>Git</span>
+                                <span>GitHub</span>
+                            </div>
+                        </div>
+                    
+                        <div class="skills-box">
+                            <div class="skills-header">
+                                <h3>Databases</h3>
+                            </div>
+                            <div class="skills-list">
+                                <span>Firebase</span>
+                                <span>PostgreSQL</span>
+                                <span>SQL Server</span>
+                            </div>
+                        </div>
+                    
+                        <div class="skills-box">
+                            <div class="skills-header">
+                                <h3>Testing & Tools</h3>
+                            </div>
+                            <div class="skills-list">
+                                <span>NUnit</span>
+                                <span>XUnit</span>
+                                <span>Jest</span>
+                                <span>Figma</span>
+                                <span>Adobe XD</span>
+                            </div>
+                        </div>
+                    </div>                    
+                </div>
+            </section>
+
+            <!-- -------------- PROJECT BOX ---------------- -->
+
+            <section class="section" id="projects">
+                <div class="top-header">
+                    <h1>Projects</h1>
+                </div>
+                <div class="project-container">
+                    <a href="https://github.com/krushi-11/Sumazon" target="_blank" class="project-link">
+                        <div class="project-box">
+                            <i class="uil uil-briefcase-alt"></i>
+                            <h3>Sumazon</h3>
+                            <label>Sumazon is a full-featured e-commerce platform that provides a seamless online shopping experience.</label>
+                        </div>
+                    </a>
+                    
+                    <a href="https://github.com/krushi-11/Team-Superheroes" target="_blank" class="project-link">
+                        <div class="project-box">
+                            <i class="uil uil-users-alt"></i>
+                            <h3>Superheroes</h3>
+                            <label>A C# web application built with ASP.NET Core that offers superhero-themed t-shirts.</label>
+                        </div>
+                    </a>
+                    
+                    <a href="https://github.com/Yash16201/AptConn" target="_blank" class="project-link">
+                        <div class="project-box">
+                            <i class="uil uil-android"></i>
+                            <h3>ApartmentConnect</h3>
+                            <label>Apartment Connect is a Flutter-based project for android application to improve communication and management within apartment communities.</label>
+                        </div>
+                    </a>                    
+                    
+                    <a href="https://github.com/krushi-11/Workout-Tracker" target="_blank" class="project-link">
+                        <div class="project-box">
+                            <i class="uil uil-android"></i>
+                            <h3>WorkoutTracker</h3>
+                            <label>A mobile application that makes recording workouts easy while offering the ability to download workout plans and collaborate with others.</label>
+                        </div>
+                    </a>                    
+                    
+                    <a href="https://github.com/krushi-11/Jarvis" target="_blank" class="project-link">
+                        <div class="project-box">
+                            <i class="uil uil-tablet"></i>
+                            <h3>Jarvis-A Smart Mirror</h3>
+                            <label>A modern Smart Mirror implementation featuring a voice-controlled assistant that runs in the background, providing an interactive and hands-free experience.</label>
+                        </div>
+                    </a>                    
+                    
+                    <a href="https://github.com/krushi-11?tab=repositories" target="_blank" class="project-link">
+                        <div class="project-box">
+                            <i class="uil uil-award"></i>
+                            <h3>Others</h3>
+                            <label>You can see on GitHub</label>
+                        </div>
+                    </a>
+                    
+                </div>
+            </section>
+
+            <!-- -------------- CONTACT BOX ---------------- -->
+
+            <section class="section" id="contact">
+                <div class="top-header">
+                    <h1>Get in touch</h1>
+                    <span>Do you have a project in your mind, contact me here</span>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="contact-info">
+                            <h2>Find Me <i class="uil uil-corner-right-down"></i></h2>
+                            <p><i class="uil uil-envelope"></i> Email: kthotange1111@gmail.com</p>
+                            <p><i class="uil uil-phone"></i> Tel: +1 206 697 9139</p>
+                        </div>
+                    </div>
+                    <form id="contact-form">
+                        <div class="form-control">
+                          <div class="form-inputs">
+                            <input type="text" name="name" class="input-field" placeholder="Name" required>
+                            <input type="email" name="email" class="input-field" placeholder="Email" required>
+                          </div>
+                          <div class="text-area">
+                            <textarea name="message" placeholder="Message" required></textarea>
+                          </div>
+                          <div class="form-button">
+                            <button type="submit" class="btn">Send <i class="uil uil-message"></i></button>
+                          </div>
+                        </div>
+                    </form>                      
+                </div>
+            </section>
+
+        </main>
+
+
+        <!-- --------------- FOOTER --------------- -->
+        <footer>
+            <div class="top-footer">
+                <p>Krushikesh Thotange</p>
+            </div>
+            <div class="middle-footer">
+                <ul class="footer-menu">
+                    <li class="footer_menu_list">
+                        <a href="#home">Home</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#about">About</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#projects">Projects</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-social-icons">
+                <a href="https://linkedin.com/in/krushikeshthotange" target="_blank" class="icon"><i class="uil uil-linkedin-alt"></i></a>
+                <a href="https://github.com/krushi-11" target="_blank" class="icon"><i class="uil uil-github-alt"></i></a>
+            </div>
+            <div class="bottom-footer">
+                <p>Copyright &copy; <a href="#home" style="text-decoration: none;">Krushikesh Thotange</a> - All rights reserved</p>
+            </div>
+        </footer>
+
+    </div>
+
+    <!-- ----- TYPING JS Link ----- -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <!-- ----- SCROLL REVEAL JS Link----- -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- ----- MAIN JS ----- -->
+    <script src="assets/js/main.js"></script>
+
+    <script>
+        particlesJS("particles-js", {
+            "particles": {
+                "number": {
+                    "value": 60,
+                    "density": {
+                        "enable": true,
+                        "value_area": 800
+                    }
+                },
+                "color": {
+                    "value": "#6e57e0" // match with your --first-color
+                },
+                "shape": {
+                    "type": "circle"
+                },
+                "opacity": {
+                    "value": 0.5,
+                    "random": false
+                },
+                "size": {
+                    "value": 4,
+                    "random": true
+                },
+                "line_linked": {
+                    "enable": true,
+                    "distance": 150,
+                    "color": "#6e57e0",
+                    "opacity": 0.4,
+                    "width": 1
+                },
+                "move": {
+                    "enable": true,
+                    "speed": 3,
+                    "direction": "none",
+                    "out_mode": "out"
+                }
+            },
+            "interactivity": {
+                "events": {
+                    "onhover": {
+                        "enable": true,
+                        "mode": "grab"
+                    }
+                },
+                "modes": {
+                    "grab": {
+                        "distance": 140,
+                        "line_linked": {
+                            "opacity": 0.7
+                        }
+                    }
+                }
+            },
+            "retina_detect": true
+        });
+    </script> 
+    
+    <script>
+        function scrollToContact() {
+          document.getElementById("contact").scrollIntoView({ behavior: "smooth" });
+        }
+    </script>
+    <script>
+        document.getElementById("contact-form").addEventListener("submit", function(event) {
+          event.preventDefault();
+      
+          emailjs.sendForm("service_asle2zb", "template_99ujfep", this)
+            .then(() => {
+              alert("Message sent successfully!");
+              this.reset();
+            }, (error) => {
+              alert("Failed to send message. Please try again later.");
+              console.error(error);
+            });
+        });
+    </script>
+</body>
+</html>
